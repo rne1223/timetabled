@@ -1,3 +1,5 @@
+import Event from './Event'
+
 const Calendar = () => {
   return (
     <table>
@@ -16,7 +18,7 @@ const Calendar = () => {
       <tbody>
         <tr>
           <td className="time">8 am</td>
-          <td></td>
+          <Event/>
           <td></td>
           <td></td>
           <td></td>
